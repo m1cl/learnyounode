@@ -1,5 +1,6 @@
 var http = require('http')
 var bl = require('bl')
+
 var url = [3]
 url[0] = process.argv[2] ? process.argv[2] : 'http://www.google.de'
 url[1] = process.argv[3] ? process.argv[3] : 'http://www.github.com'
@@ -17,7 +18,6 @@ function getResults(url) {
         })
     })
 }
-
 getResults(url)
 
 
