@@ -13,7 +13,7 @@ if (!prefix) {
 }
 
 filter(dir, prefix, function(err, data) {
-    data.map(function(data){
+    data.map(function(data) {
         console.log(data)
     })
 })
