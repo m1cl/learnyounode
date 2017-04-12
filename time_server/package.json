@@ -1,0 +1,10 @@
+{
+  "name": "time_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michael Ajala",
+  "license": "MIT",
+  "dependencies": {
+    "strftime": "^0.10.0"
+  }
+}
